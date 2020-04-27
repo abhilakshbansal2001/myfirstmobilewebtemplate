@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.size-nav{
+  font-size: 30px;
+}
+.about-me{
+  background-image: url('city.jpg');
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  padding-top: 5rem;
+  margin-bottom: auto;
+}
+.abhi{
+  height: 530px;
+  width: 105%;
+  object-fit: cover;
+}
+hr{
+border-top: 1px solid grey;
+border-bottom: none;
+width: 75%;
+}
+.display4{
+  color: #F77737;
+}
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 10px;
+  border-radius: 80px
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 5px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  color:#3B5998;
+}
+
+.fa-twitter {
+
+  color: #55ACEE;
+}
+.fa-instagram {
+  color: #125688;
+}
+.Experience{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+.jumbotron{
+  margin-bottom: 0;
+}
+.info{
+padding:2rem;background-color: #fff; text-align: center; font-family: 'Heebo', sans-serif;
+}
+$('.carousel').carousel({
+  interval: 200
+})
+
+p{
+  font-family: 'Manrope-light', sans-serif;
+}
